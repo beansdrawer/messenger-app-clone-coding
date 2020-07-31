@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to here!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>메신저앱 코딩</title>
 </head>
 <body>
   <div class="status-bar">
     <div class="status-bar__column">
-      <span>No Service</span>
+      <span>연결 없음</span>
       <i class="fas fa-wifi"></i>
     </div>
     <div class="status-bar__column">
@@ -20,6 +22,23 @@
       <i class="fas fa-bolt"></i>
     </div>
   </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">
+      환영합니다
+    </h1>
+    <p class="welcome-header__text">
+      가짜 메신저 앱입니다
+    </p>
+  </header>
+
+  <form action="friends.html" id="login-form">
+    <input name="username" type="text" placeholder="Email or Phone Number">
+    <input name="password" type="password" placeholder="Password">
+    <input type="submit" value="Log In">
+    <a href="#">계정 또는 비밀번호 찾기</a>
+  </form>
+
   <script 
     src="https://kit.fontawesome.com/c8e2b99a17.js" 
     crossorigin="anonymous">
