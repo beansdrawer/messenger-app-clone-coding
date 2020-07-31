@@ -8,6 +8,7 @@
 @import 'friends.css';
 @import "login.css";
 @import "chat.css";
+@import "no-mobile.css";
 
 body{
   font-family: 'Open Sans', sans-serif;
